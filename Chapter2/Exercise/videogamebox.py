@@ -28,7 +28,10 @@ class VideoGame:
         and tags"""
         return filter in self.name or filter in self.publisher or filter in self.tags
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8cf8691aaf866a18678905b9ea5f9f0af787aed9
 class Videogamebox:
     """Represent a box of videogame that can be tagged,
     modified and searched"""
