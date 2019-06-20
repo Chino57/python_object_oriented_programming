@@ -56,7 +56,8 @@ class Menu:
 
     def add_game(self):
         game = input("Enter a game: ")
-        self.videogamebox.new_game(game)
+        publisher = input("Enter the publisher: ")
+        self.videogamebox.new_game(game,publisher)
         print("Your game has been added")
 
     def modify_name(self):
