@@ -38,7 +38,7 @@ class Menu:
             else:
                 print("{0} is not a valid choice".format(choice))
 
-    def show_notes(self, notes = None):
+    def show_notes(self, notes=None):
         if not notes:
             notes = self.notebook.notes
         for note in notes:
